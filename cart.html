@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/head_foot.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/cart.css">
+
+    <title>Elegantrove</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="head_contain cont">
+        <div class="heading_h">
+            <img src="./image/logo.png" alt="" class="log_h">
+            <nav class="h_nav navigation">
+                <button type="button" class="h_sw mn_sw" >
+                  <img src="./image/line.svg" alt class="ln_menu">
+                  <img src="./image/line.svg" alt class="ln_menu">
+                  <img src="./image/line.svg" alt class="ln_menu">
+              </button>
+                <ul class="nav_lst">
+                  <li><a href="./index.html" class="lnk">главная</a></li>
+                  <li><a href="./catalog.html" class="lnk">каталог</a></li>
+                  <li>
+                    <a href="./cart.html" class="lnk">
+                      корзина <img src="./image/cart.svg" class="nav_img_crt" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="head_cont">
+            <h1 class="h_title title-1">Корзина</h1>
+            <div class="cart-options">
+                <p class="total_cost">
+                    Всего: $<span class="opts_total_num">0</span>
+                </p>
+                <a href="./confirmation.html" class="opts_button button">Оформить заказ</a>
+            </div>
+      </div>
+      </div>
+    </header>
+    <main class="main">
+        <section class="cart-items">
+            <div class="item_cont cont">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_cont">elegantrove 2023</p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="js/quantity.js"></script>
+
+  </body>
+</html>

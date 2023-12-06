@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/head_foot.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/confirmation.css">
+
+    <title>Elegantrove</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="h_content cont">
+        <div class="heading_h">
+            <img src="./image/logo.png" alt="" class="log_h">
+            <nav class="h_nav navigation">
+                <button type="button" class="h_sw mn_sw">
+                  <img src="./image/line.svg" alt class="ln_menu">
+                  <img src="./image/line.svg" alt class="ln_menu">
+                  <img src="./image/line.svg" alt class="ln_menu">
+              </button>
+                <ul class="nav_lst">
+                  <li><a href="./index.html" class="lnk">главная</a></li>
+                  <li><a href="./catalog.html" class="lnk">каталог</a></li>
+                  <li>
+                    <a href="./cart.html" class="lnk">
+                      корзина <img src="./image/cart.svg" class="nav_img_crt" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="head_cont">
+            <h1 class="h_title title-1">Оформление</h1>
+            <div class="cart-options">
+                <p class="total_cost">
+                    Всего: $<span class="cart_total_cost">2000</span>
+                </p>
+            </div>
+      </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main_content cont">
+        <form action="submit" class="form">
+          <article class="form person_data">
+            <h2 class="form_t title_2">Личная информация:</h2>
+            <div class="contents">
+              <div class="column">
+                <input type="text" class="input_f" placeholder="Ваше имя">
+                <textarea name="name" class="input_f textarea" placeholder="Указание к заказу"></textarea>
+              </div>
+              <div class="column">
+                <input type="text" class="input_f" placeholder="Ваша фамилия">
+                <input type="text" class="input_f" placeholder="Номер телефона">
+                <input type="text" class="input_f" placeholder="Самовывоз*">
+                <p class="add">*Забрать свой заказ вы можете через 2 дня после оформления по адресу нашего магазина </p>
+              </div>
+            </div>
+          </article>
+          <article class="form delivery-info">
+            <h2 class="form_t title_2">Информация о доставке:</h2>
+            <div class="contents">
+              <div class="column">
+                <input type="text" class="input_f" placeholder="Город">
+                <input type="text" class="input_f" placeholder="Дом">
+                <input type="text" class="input_f" placeholder="Этаж">
+              </div>
+              <div class="column">
+                <input type="text" class="input_f" placeholder="Улица">
+                <input type="text" class="input_f" placeholder="Подъезд">
+                <input type="text" class="input_f" placeholder="Квартира">
+              </div>
+            </div>
+          </article>
+          <button class="form_button button">Сделать заказ</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+        <p class="footer_cont">elegantrove 2023</p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/conf.js"></script>
+  </body>
+</html>

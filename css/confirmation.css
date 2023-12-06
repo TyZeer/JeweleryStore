@@ -1,0 +1,149 @@
+.total_cost {
+  color: #282827;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: end;
+}
+@media (max-width: 1023px) {
+  .total_cost {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .total_cost {
+    font-size: 28px;
+  }
+}
+@media (max-width: 424px) {
+  .total_cost {
+    font-size: 24px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+@media (max-width: 1023px) {
+  .form {
+    gap: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .form {
+    gap: 30px;
+  }
+}
+.contents {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1104px;
+  gap: 20px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .contents {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 0 1 500px;
+}
+@media (max-width: 767px) {
+  .column {
+    align-self: center;
+    flex: 1 0 auto;
+    width: 100%;
+    gap: 25px;
+  }
+}
+.input_f {
+  border: 2px solid #DCDCD6;
+  background: #F4F4F3;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 40px */
+}
+.input_f::-moz-placeholder {
+  color: #8E8E8A;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 40px */
+}
+.input_f::placeholder {
+  color: #8E8E8A;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 40px */
+}
+@media (max-width: 1439px) {
+  .input_f {
+    font-size: 24px;
+  }
+}
+@media (max-width: 424px) {
+  .input_f {
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+.add {
+  color: #484846;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155%; /* 37.2px */
+  max-width: 500px;
+}
+@media (max-width: 767px) {
+  .add {
+    font-size: 20px;
+  }
+}
+@media (max-width: 424px) {
+  .add {
+    font-size: 18px;
+  }
+}
+.form_button {
+  align-self: flex-end;
+  font-size: 36px;
+}
+@media (max-width: 1023px) {
+  .form_button {
+    font-size: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .form_button {
+    font-size: 28px;
+  }
+}
+
+.textarea {
+  resize: none;
+  flex: 1 0 auto;
+}
+@media (max-width: 767px) {
+  .textarea {
+    height: 300px;
+  }
+}

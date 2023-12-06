@@ -1,0 +1,129 @@
+.product-page__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prod_body {
+  width: 100%;
+  max-width: 1105px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.prod_img_for_page {
+  border-radius: 8px;
+  border-bottom: 1px solid rgba(220, 220, 214, 0.2);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  align-self: center;
+}
+@media (max-width: 767px) {
+  .prod_img_for_page {
+    width: 100%;
+  }
+}
+.prod_inf_page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.prod_page_txt {
+  text-align: center;
+}
+.additional_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .additional_info {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.prod_params {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.prod_param {
+  color: #484846;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 37.2px */
+}
+@media (max-width: 767px) {
+  .prod_param {
+    font-size: 20px;
+  }
+}
+.prod_price {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155%; /* 99.2px */
+}
+@media (max-width: 767px) {
+  .prod_price {
+    align-self: flex-end;
+    font-size: 36px;
+  }
+}
+.variety {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .variety {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .product-page__quanity {
+    align-self: flex-end;
+  }
+}
+.add_to_cart {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.add_to_cart:active {
+  transform: scale(0.9);
+}
+@media (hover: hover) {
+  .add_to_cart:hover {
+    transform: scale(1.1);
+  }
+}
+.cart {
+  width: 70px;
+}
+@media (max-width: 767px) {
+  .cart {
+    width: 40px;
+  }
+}
+.add_to_cart_text {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 55.8px */
+  text-decoration-line: underline;
+}
+@media (max-width: 767px) {
+  .add_to_cart_text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 424px) {
+  .add_to_cart_text {
+    font-size: 24px;
+  }
+}
