@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 50px;
 }
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   .cat_content {
     gap: 30px;
   }
@@ -20,7 +20,7 @@
   font-weight: 400;
   line-height: normal;
 }
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   .label_cat {
     font-size: 20px;
   }
@@ -34,7 +34,7 @@
   line-height: normal;
   text-decoration-line: underline;
 }
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   .select_catalogue {
     font-size: 20px;
   }

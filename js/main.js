@@ -7,7 +7,7 @@ menuSwitcherButton.addEventListener('click', (e) => {
 
 navigation.querySelectorAll('.lnk').forEach(link => {
     link.addEventListener('click', e => {
-        navigation.classList.toggle('navigation__list--opened');
+        navigation.classList.toggle('navigation_list--opened');
         menuSwitcherButton.classList.toggle('menu-switcher--opened');
     })
 })
